@@ -1,0 +1,18 @@
+name: "mpl-analyzer"
+namespace: "theone"
+version: "0.0.0"
+description: "MPL spectrum analyzer"
+authors: "Yongho Kim <yongho.kim@anl.gov>"
+license: "The license agreed by Argonne National Laboratory"
+keywords: "miniMPL, LiDAR"
+homepage: "https://github.com/gemblerz/plugin-mpl-analyzer/blob/main/ecr-meta/ecr-science-description.md"
+funding: "Argonne LDRD 2022-0310"
+collaborators: "Seongha Park, Paytsar Muradyan, Bhupendra Raut"
+source:
+    architectures:
+        - "linux/arm64"
+        - "linux/amd64"
+    url: "https://github.com/gemblerz/plugin-mpl-analyzer.git"
+inputs:
+    - id: "stream"
+      type: "string"
